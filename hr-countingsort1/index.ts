@@ -1,6 +1,6 @@
 function countingSort(arr: number[]): number[] {
   // Write your code here
-  let output = Array(arr.length).fill(0);
+  let output = Array(100).fill(0);
 
   for (let num of arr) {
     output[num]++;
